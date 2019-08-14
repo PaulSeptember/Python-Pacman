@@ -1,0 +1,35 @@
+from vectors import Vector2D
+
+UP = Vector2D(0, -1)
+DOWN = Vector2D(0, 1)
+LEFT = Vector2D(-1, 0)
+RIGHT = Vector2D(1, 0)
+
+STOP = Vector2D()
+
+YELLOW = (255, 255, 0)
+WHITE = (255, 255, 255)
+WHITE1 = (105, 105, 105)
+WHITE2 = (55, 55, 55)
+
+RED = (255, 0, 0)
+BLUE = (0, 0, 255)
+
+PINK = (255, 100, 150)
+TEAL = (100, 255, 255)
+ORANGE = (230, 190, 40)
+
+TRANSPARENT = (255, 0, 255)
+
+
+TILE_WIDTH = 16
+TILE_HEIGHT = 16
+N_ROWS = 36
+N_COLS = 28
+SCREENSIZE = (N_COLS * TILE_WIDTH, N_ROWS * TILE_HEIGHT)
+BLACK = (0, 0, 0)
+
+PACMAN_SPEED = TILE_HEIGHT * 6
+GHOST_SPEED = TILE_HEIGHT * 5
+
+LEVEL_MAP_FILE = "maze1.txt"
